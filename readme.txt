@@ -18,4 +18,5 @@ Blank (2-FA, not needed)
 
 To update the maps:
 make tiles
+Verify that you are satisfied with the tiles
 python upload.py
