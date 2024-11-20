@@ -1,3 +1,6 @@
+This repo is used to generate Leaflet tiles for the Brighter Shores Wiki
+You input an image of the Brighter Shores map, and the program will cut up the images into tiles, and then upload the tiles automatically to the wiki
+
 Install Python: https://www.python.org/downloads/release/python-3130/
 Install Vips: https://github.com/libvips/build-win64-mxe/releases/tag/v8.16.0
 
