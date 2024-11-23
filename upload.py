@@ -94,8 +94,8 @@ def tile_paths(directory, zooms):
     for zoom in range(zooms):
         for y in range(2**zoom):
             for x in range(2**zoom):
-                file_path = pathlib.Path(directory, str(zoom), str(y), f'{x}.jpg')
-                wiki_path = f'Brighter_Shores_World_Map_Tile_{zoom}_{y}_{x}.jpg'
+                file_path = pathlib.Path(directory, str(zoom), str(y), f'{x}.png')
+                wiki_path = f'Brighter_Shores_World_Map_Tile_{zoom}_{y}_{x}.png'
                 yield [file_path, wiki_path]
 
 
@@ -104,6 +104,7 @@ zooms = count_zoom_levels(TILE_PATHS)
 gallery = []
 # Normal tiles:
 for file_path, wiki_path in tile_paths(TILE_PATHS, zooms):
+    print(file_path, wiki_path)
     if file_path.exists():
         print(f'\033[92m{wiki_path}')
         gallery.append(wiki_path)
@@ -119,8 +120,10 @@ gallery.append(wiki_path)
 try_upload(bot, wiki_path, file_path)
 
 # Orphanage
+orphanage_page = 'Brighter Shores:Orphanage/Map'
+print(orphanage_page)
 orphanage_text = f'''These map tiles are used in the Brighter Shores wiki map:
 <gallery>
 {'\n'.join(gallery)}
 </gallery>'''
-try_edit(bot, 'Updating map tiles', 'Brighter Shores:Orphanage/Map', orphanage_text)
+try_edit(bot, 'Updating map tiles', orphanage_page, orphanage_text)

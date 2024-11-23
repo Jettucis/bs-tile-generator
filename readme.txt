@@ -5,7 +5,7 @@ Install Python: https://www.python.org/downloads/release/python-3130/
 Install Vips: https://github.com/libvips/build-win64-mxe/releases/tag/v8.16.0
 
 In the console:
-pip install requirements
+pip install requirements.txt
 
 Ask an admin on the wiki to help get a bot account for the wiki
 Create a file called "creds.file"
@@ -17,6 +17,6 @@ Blank (2-FA, not needed)
 ```
 
 To update the maps:
-make tiles
+pytohn run_vips.py
 Verify that you are satisfied with the tiles
 python upload.py
