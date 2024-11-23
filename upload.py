@@ -104,7 +104,6 @@ zooms = count_zoom_levels(TILE_PATHS)
 gallery = []
 # Normal tiles:
 for file_path, wiki_path in tile_paths(TILE_PATHS, zooms):
-    print(file_path, wiki_path)
     if file_path.exists():
         print(f'\033[92m{wiki_path}')
         gallery.append(wiki_path)
