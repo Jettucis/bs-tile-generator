@@ -5,6 +5,7 @@ import os
 
 TILE_PATHS = 'out/tiles/'
 
+
 def tryUpload(bot, title, filename):
     with open(filename, 'rb') as f:
         file_data = f.read()
@@ -14,7 +15,7 @@ def tryUpload(bot, title, filename):
         querytext = json.loads(query.text)
         if query.ok and 'error' in querytext and 'code' in querytext['error'] and querytext['error']['code'] == 'fileexists-no-change':
             return
-        if query.ok and not 'error' in querytext and 'upload' in querytext and 'result' in querytext['upload'] and querytext['upload']['result'] == 'Success':
+        if query.ok and 'error' not in querytext and 'upload' in querytext and 'result' in querytext['upload'] and querytext['upload']['result'] == 'Success':
             return
         else:
             print('FAILED TO POST TO '+title)
@@ -25,10 +26,12 @@ def tryUpload(bot, title, filename):
             posted += 1
             time.sleep(30)
 
+
 def tile_paths(directory):
     for root, dirs, files in os.walk(directory):
         for file in files:
             yield os.path.join(root, file)
+
 
 bot = mwbot.Mwbot('creds.file')
 for tile_path in tile_paths(TILE_PATHS):
