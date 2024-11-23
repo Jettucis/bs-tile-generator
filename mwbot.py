@@ -24,7 +24,7 @@ class Mwbot():
             try:
                 self.session, self.token = self.login()
                 break
-            except:
+            except Exception as e:
                 print(traceback.format_exc())
                 attempts -= 1
                 print(str(attempts)+" attempts left.")
@@ -32,32 +32,6 @@ class Mwbot():
                 continue
         if (attempts == 0):  # last try, and throw error if fail
             self.session, self.token = self.login()
-
-    def loginBot(self):  # Old login parameters
-        session = requests.Session()
-        r1 = session.get(API_URL, params={
-            'format': 'json',
-            'action': 'query',
-            'meta': 'tokens',
-            'type': 'login',
-        })
-
-        r2 = session.post(API_URL, data={
-            'format': 'json',
-            'action': 'login',
-            'lgname': self.username,
-            'lgpassword': self.password,
-            'lgtoken': r1.json()['query']['tokens']['logintoken'],
-        })
-        if r2.json()['login']['result'] != 'Success':
-            raise RuntimeError(r2.json()['login']['reason'])
-
-        r3 = session.get(API_URL, params={
-            'format': 'json',
-            'action': 'query',
-            'meta': 'tokens',
-        })
-        return session, r3.json()['query']['tokens']['csrftoken']
 
     def login(self):
         session = requests.Session()
@@ -126,9 +100,6 @@ class Mwbot():
             'title': title,
             'token': self.token,
         })
-
-        # print(r4.headers)
-
         return r4
 
     def upload(self, summary, title, fullfile):
@@ -143,6 +114,17 @@ class Mwbot():
         }, files={'file': (title, fullfile, 'multipart/form-data')})
         return r4
 
+    def delete(self, title, reason):
+        r4 = self.session.post(API_URL, data={
+            'action': 'delete',
+            'title': title,
+            'format': 'json',
+            'token': self.token,
+            'assert': 'user',
+            'reason': reason,
+        })
+        return r4
+
     def purge(self, titles):
         list = ''
         for item in titles:
@@ -152,9 +134,6 @@ class Mwbot():
             'format': 'json',
             'titles': list[1:]
         })
-
-        # print(r4.headers)
-
         return r4
 
     def categorymembers(self, titles):
