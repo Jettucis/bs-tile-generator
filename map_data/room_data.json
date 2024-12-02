@@ -1,0 +1,163 @@
+[
+{
+    "name": "Hopeport\nPortal Stone",
+    "color": "#959354",
+    "entities": ["Portal_Stone;Portal Stone"],
+    "entity_colors": ["item"],
+    "coordinates": [94, 71]
+},
+{
+    "name": "Captain\nDegreene's\nOffice",
+    "color": "#744240",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [105.5, 73.5]
+},
+{
+    "name": "Barracks",
+    "color": "#6a5e4c",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [118.5, 72.5]
+},
+{
+    "name": "Sparring Area",
+    "color": "#969454",
+    "entities": ["Guard;Sparring Guard"],
+    "entity_colors": ["neutral"],
+    "coordinates": [87, 87]
+},
+{
+    "name": "Training Ground",
+    "color": "#949253",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [107.5, 86.5]
+},
+{
+    "name": "Infirmary",
+    "color": "#898d70",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [123.5, 82.5]
+},
+{
+    "name": "Quartermaster",
+    "color": "#6a5e4c",
+    "entities": ["Bank;Quartermaster", "Shop;Quartermaster Shop"],
+    "entity_colors": ["neutral", "neutral"],
+    "coordinates": [125.5, 91.5]
+},
+{
+    "name": "Stone Street",
+    "color": "#c8b278",
+    "entities": ["Shop;Kevin's Ingredients"],
+    "entity_colors": ["chef"],
+    "coordinates": [110.5, 100.5]
+},
+{
+    "name": "The Delectable Dab\nRestaurant",
+    "color": "#60604e",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [104, 106.5]
+},
+{
+    "name": "The Delectable\nDab Kitchen",
+    "color": "#60604e",
+    "entities": ["Chef;Cooking Stations", "Chef;Passive;Fish Dishes", "Bank;Ingredients", "Shop;Head Chef", "Clipboard;Chef's Bounty Board"],
+    "entity_colors": ["chef", "chef", "chef", "chef", "chef"],
+    "coordinates": [89, 103]
+},
+{
+    "name": "Apothecary",
+    "color": "#628457",
+    "entities": ["Alchemist;Potion Stations", "Alchemist;Passive;Passive Potion Station", "Alchemist;Passive;Work for Ebsworth", "Bank;Potion Reagents", "Bank;Potions", "Shop;The Apothecary Shop"],
+    "entity_colors": ["alchemist", "alchemist", "alchemist", "alchemist", "alchemist", "alchemist"],
+    "coordinates": [132, 103]
+},
+{
+    "name": "Town Square",
+    "color": "#c8b278",
+    "entities": ["Shop;Potion Reagents"],
+    "entity_colors": ["alchemist"],
+    "coordinates": [113.5, 117.5]
+},
+{
+    "name": "Brannof Boulevard",
+    "color": "#c8b278",
+    "entities": ["Forager;Periwinkle"],
+    "entity_colors": ["forager"],
+    "coordinates": [96, 120.5]
+},
+{
+    "name": "Brannof\nHall's\nHallway",
+    "color": "#744240",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [81.5, 120.5]
+},
+{
+    "name": "Brannof's\nChamber",
+    "color": "#744240",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [81.5, 112.5]
+},
+{
+    "name": "Brannof's\nDining\nRoom",
+    "color": "#725848",
+    "entities": [],
+    "entity_colors": [],
+    "coordinates": [73, 120.5]
+},
+{
+    "name": "Hopeport Obelisk",
+    "color": "#889248",
+    "entities": ["Obelisk;Obelisk"],
+    "entity_colors": ["item"],
+    "coordinates": [98.5, 133.5]
+},
+{
+    "name": "Eel Street Bridge",
+    "color": "#c8b278",
+    "entities": ["Fisher;Eel"],
+    "entity_colors": ["fisher"],
+    "coordinates": [113.5, 133.5]
+},
+{
+    "name": "Melv's\nFishing Supplies",
+    "color": "#725848",
+    "entities": ["Bank;Fishing Bait", "Shop;Fishing Supplies"],
+    "entity_colors": ["fisher", "fisher"],
+    "coordinates": [126.5, 115.5]
+},
+{
+    "name": "Old Street West",
+    "color": "#c8b278",
+    "entities": ["Forager;Wallplant"],
+    "entity_colors": ["forager"],
+    "coordinates": [131, 124]
+},
+{
+    "name": "Hairdresser",
+    "color": "#a6a6a6",
+    "entities": ["Hairdresser;Hairdresser"],
+    "entity_colors": ["item"],
+    "coordinates": [136, 115.5]
+},
+{
+    "name": "Old Street East",
+    "color": "#c7b178",
+    "entities": ["Guard;Deathcrow", "Forager;Wallplant"],
+    "entity_colors": ["neutral", "forager"],
+    "coordinates": [150.5, 123.5]
+},
+{
+    "name": "The\nCloakroom",
+    "color": "#3a4d6a",
+    "entities": ["Bank;Capes", "Shop;Cape Shop"],
+    "entity_colors": ["item", "item"],
+    "coordinates": [145, 115.5]
+}
+]

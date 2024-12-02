@@ -59,9 +59,6 @@ def try_edit(bot, summary, title, text):
     while posted < ATTEMPTS:
         query = bot.post(summary, title, text)
         querytext = json.loads(query.text)
-        #if query.ok and 'error' in querytext and 'code' in querytext['error'] and querytext['error']['code'] == 'missingtitle':
-        #    # File does not exist - pass
-        #    return
         if query.ok and 'error' not in querytext and 'edit' in querytext and 'result' in querytext['edit'] and 'Success' in querytext['edit']['result']:
             # Successfully deleted
             return
@@ -74,12 +71,6 @@ def try_edit(bot, summary, title, text):
             posted += 1
             time.sleep(30)
     raise ConnectionError
-
-
-def tile_paths(directory):
-    for root, dirs, files in os.walk(directory):
-        for file in files:
-            yield os.path.join(root, file)
 
 
 def count_zoom_levels(directory):

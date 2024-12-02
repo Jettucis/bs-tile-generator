@@ -1,0 +1,20 @@
+// Copied from https://brightershoreswiki.org/w/MediaWiki:Common.less/leaflet.less
+@chef: #9C8474;
+@fisher: #98D3CC;
+@forager: #DDDB93;
+@alchemist: #83C8A1;
+@gatherer: #C8C87C;
+@woodcutter: #78C86C;
+@carpenter: #9C8A7C;
+@bonewright: #B0B897;
+@miner: #749696;
+@blacksmith: #B4A432;
+@stonemason: #808789;
+@detective: #5AB2BE;
+@leatherworker: #866E62;
+@merchant: #78B492;
+@palette: #DEDAD4;
+@item: #90908C;
+@obstacle: #927DCE;
+@neutral: #C0925A;
+@aggressive: #D75650;
