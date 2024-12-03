@@ -4,7 +4,8 @@ import json
 import time
 import os
 
-TILE_PATHS = 'out/tiles/'
+TILE_BASEMAP_PATH = 'out/tiles/'
+TILE_ROOMS_PATH = 'out/rooms/'
 ATTEMPTS = 3
 
 
@@ -81,39 +82,47 @@ def count_zoom_levels(directory):
     return levels
 
 
-def tile_paths(directory, zooms):
+def tile_paths(directory, image_name, zooms):
     for zoom in range(zooms):
         for y in range(2**zoom):
             for x in range(2**zoom):
                 file_path = pathlib.Path(directory, str(zoom), str(y), f'{x}.png')
-                wiki_path = f'Brighter_Shores_World_Map_Tile_{zoom}_{y}_{x}.png'
+                wiki_path = f'{image_name}_{zoom}_{y}_{x}.png'
                 yield [file_path, wiki_path]
 
 
-bot = mwbot.Mwbot('creds.file')
-zooms = count_zoom_levels(TILE_PATHS)
-gallery = []
-# Normal tiles:
-for file_path, wiki_path in tile_paths(TILE_PATHS, zooms):
-    if file_path.exists():
-        print(f'\033[92m{wiki_path}')
-        gallery.append(wiki_path)
-        try_upload(bot, wiki_path, file_path)
-    else:
-        print(f'\033[91m{wiki_path}')
-        try_delete(bot, f'File:{wiki_path}', 'Unused map file')
-# Blank tile:
-wiki_path = 'Brighter_Shores_World_Map_Tile_blank.png'
-file_path = pathlib.Path(TILE_PATHS, 'blank.png')
-print(f'\033[92m{wiki_path}')
-gallery.append(wiki_path)
-try_upload(bot, wiki_path, file_path)
+def upload_tiles(path, image_name, zooms, gallery):
+    for file_path, wiki_path in tile_paths(path, image_name, zooms):
+        if file_path.exists():
+            print(f'\033[92m{wiki_path}')
+            gallery.append(wiki_path)
+            try_upload(bot, wiki_path, file_path)
+        else:
+            print(f'\033[91m{wiki_path}')
+            try_delete(bot, f'File:{wiki_path}', 'Unused map file')
+    # Blank tile:
+    wiki_path = f'{image_name}_blank.png'
+    file_path = pathlib.Path(path, 'blank.png')
+    print(f'\033[92m{wiki_path}')
+    gallery.append(wiki_path)
+    try_upload(bot, wiki_path, file_path)
 
-# Orphanage
-orphanage_page = 'Brighter Shores:Orphanage/Map'
-print(orphanage_page)
-orphanage_text = f'''These map tiles are used in the Brighter Shores wiki map:
+
+def upload_orphanage(orphanage_page, gallery):
+    print(orphanage_page)
+    orphanage_text = f'''These map tiles are used in the Brighter Shores wiki map:
 <gallery>
 {'\n'.join(gallery)}
 </gallery>'''
-try_edit(bot, 'Updating map tiles', orphanage_page, orphanage_text)
+    try_edit(bot, 'Updating map tiles', orphanage_page, orphanage_text)
+
+
+bot = mwbot.Mwbot('creds.file')
+zooms = count_zoom_levels(TILE_BASEMAP_PATH)
+assert zooms == count_zoom_levels(TILE_ROOMS_PATH)
+gallery_basemap = []
+gallery_overlay = []
+upload_tiles(TILE_BASEMAP_PATH, 'Brighter_Shores_World_Map_Tile', zooms, gallery_basemap)
+upload_tiles(TILE_ROOMS_PATH, 'Brighter_Shores_World_Map_Overlay', zooms, gallery_overlay)
+upload_orphanage('Brighter Shores:Orphanage/Map', gallery_basemap)
+upload_orphanage('Brighter Shores:Orphanage/MapOverlay', gallery_overlay)
