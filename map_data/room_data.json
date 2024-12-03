@@ -1,163 +1,464 @@
 [
-{
-    "name": "Hopeport\nPortal Stone",
-    "color": "#959354",
-    "entities": ["Portal_Stone;Portal Stone"],
-    "entity_colors": ["item"],
-    "coordinates": [94, 71]
-},
-{
-    "name": "Captain\nDegreene's\nOffice",
-    "color": "#744240",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [105.5, 73.5]
-},
-{
-    "name": "Barracks",
-    "color": "#6a5e4c",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [118.5, 72.5]
-},
-{
-    "name": "Sparring Area",
-    "color": "#969454",
-    "entities": ["Guard;Sparring Guard"],
-    "entity_colors": ["neutral"],
-    "coordinates": [87, 87]
-},
-{
-    "name": "Training Ground",
-    "color": "#949253",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [107.5, 86.5]
-},
-{
-    "name": "Infirmary",
-    "color": "#898d70",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [123.5, 82.5]
-},
-{
-    "name": "Quartermaster",
-    "color": "#6a5e4c",
-    "entities": ["Bank;Quartermaster", "Shop;Quartermaster Shop"],
-    "entity_colors": ["neutral", "neutral"],
-    "coordinates": [125.5, 91.5]
-},
-{
-    "name": "Stone Street",
-    "color": "#c8b278",
-    "entities": ["Shop;Kevin's Ingredients"],
-    "entity_colors": ["chef"],
-    "coordinates": [110.5, 100.5]
-},
-{
-    "name": "The Delectable Dab\nRestaurant",
-    "color": "#60604e",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [104, 106.5]
-},
-{
-    "name": "The Delectable\nDab Kitchen",
-    "color": "#60604e",
-    "entities": ["Chef;Cooking Stations", "Chef;Passive;Fish Dishes", "Bank;Ingredients", "Shop;Head Chef", "Clipboard;Chef's Bounty Board"],
-    "entity_colors": ["chef", "chef", "chef", "chef", "chef"],
-    "coordinates": [89, 103]
-},
-{
-    "name": "Apothecary",
-    "color": "#628457",
-    "entities": ["Alchemist;Potion Stations", "Alchemist;Passive;Passive Potion Station", "Alchemist;Passive;Work for Ebsworth", "Bank;Potion Reagents", "Bank;Potions", "Shop;The Apothecary Shop"],
-    "entity_colors": ["alchemist", "alchemist", "alchemist", "alchemist", "alchemist", "alchemist"],
-    "coordinates": [132, 103]
-},
-{
-    "name": "Town Square",
-    "color": "#c8b278",
-    "entities": ["Shop;Potion Reagents"],
-    "entity_colors": ["alchemist"],
-    "coordinates": [113.5, 117.5]
-},
-{
-    "name": "Brannof Boulevard",
-    "color": "#c8b278",
-    "entities": ["Forager;Periwinkle"],
-    "entity_colors": ["forager"],
-    "coordinates": [96, 120.5]
-},
-{
-    "name": "Brannof\nHall's\nHallway",
-    "color": "#744240",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [81.5, 120.5]
-},
-{
-    "name": "Brannof's\nChamber",
-    "color": "#744240",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [81.5, 112.5]
-},
-{
-    "name": "Brannof's\nDining\nRoom",
-    "color": "#725848",
-    "entities": [],
-    "entity_colors": [],
-    "coordinates": [73, 120.5]
-},
-{
-    "name": "Hopeport Obelisk",
-    "color": "#889248",
-    "entities": ["Obelisk;Obelisk"],
-    "entity_colors": ["item"],
-    "coordinates": [98.5, 133.5]
-},
-{
-    "name": "Eel Street Bridge",
-    "color": "#c8b278",
-    "entities": ["Fisher;Eel"],
-    "entity_colors": ["fisher"],
-    "coordinates": [113.5, 133.5]
-},
-{
-    "name": "Melv's\nFishing Supplies",
-    "color": "#725848",
-    "entities": ["Bank;Fishing Bait", "Shop;Fishing Supplies"],
-    "entity_colors": ["fisher", "fisher"],
-    "coordinates": [126.5, 115.5]
-},
-{
-    "name": "Old Street West",
-    "color": "#c8b278",
-    "entities": ["Forager;Wallplant"],
-    "entity_colors": ["forager"],
-    "coordinates": [131, 124]
-},
-{
-    "name": "Hairdresser",
-    "color": "#a6a6a6",
-    "entities": ["Hairdresser;Hairdresser"],
-    "entity_colors": ["item"],
-    "coordinates": [136, 115.5]
-},
-{
-    "name": "Old Street East",
-    "color": "#c7b178",
-    "entities": ["Guard;Deathcrow", "Forager;Wallplant"],
-    "entity_colors": ["neutral", "forager"],
-    "coordinates": [150.5, 123.5]
-},
-{
-    "name": "The\nCloakroom",
-    "color": "#3a4d6a",
-    "entities": ["Bank;Capes", "Shop;Cape Shop"],
-    "entity_colors": ["item", "item"],
-    "coordinates": [145, 115.5]
-}
-]
+    {
+        "name": "Hopeport\nPortal Stone",
+        "color": "#959354",
+        "entities": ["Portal_Stone;Portal Stone"],
+        "entity_colors": ["item"],
+        "coordinates": [94, 71]
+    },
+    {
+        "name": "Captain\nDegreene's\nOffice",
+        "color": "#744240",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [105.5, 73.5]
+    },
+    {
+        "name": "Barracks",
+        "color": "#6a5e4c",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [118.5, 72.5]
+    },
+    {
+        "name": "Sparring Area",
+        "color": "#969454",
+        "entities": ["Guard;Sparring Guard"],
+        "entity_colors": ["neutral"],
+        "coordinates": [87, 87]
+    },
+    {
+        "name": "Training Ground",
+        "color": "#949253",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [107.5, 86.5]
+    },
+    {
+        "name": "Infirmary",
+        "color": "#898d70",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [123.5, 82.5]
+    },
+    {
+        "name": "Quartermaster",
+        "color": "#6a5e4c",
+        "entities": ["Bank;Quartermaster", "Shop;Quartermaster Shop"],
+        "entity_colors": ["neutral", "neutral"],
+        "coordinates": [125.5, 91.5]
+    },
+    {
+        "name": "Stone Street",
+        "color": "#c8b278",
+        "entities": ["Shop;Kevin's Ingredients"],
+        "entity_colors": ["chef"],
+        "coordinates": [110.5, 100.5]
+    },
+    {
+        "name": "The Delectable Dab\nRestaurant",
+        "color": "#60604e",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [104, 106.5]
+    },
+    {
+        "name": "The Delectable\nDab Kitchen",
+        "color": "#60604e",
+        "entities": ["Chef;Cooking Stations", "Chef;Passive;Fish Dishes", "Bank;Ingredients", "Shop;Head Chef", "Clipboard;Chef's Bounty Board"],
+        "entity_colors": ["chef", "chef", "chef", "chef", "chef"],
+        "coordinates": [89, 103]
+    },
+    {
+        "name": "Apothecary",
+        "color": "#628457",
+        "entities": ["Alchemist;Potion Stations", "Alchemist;Passive;Passive Potion Station", "Alchemist;Passive;Work for Ebsworth", "Bank;Potion Reagents", "Bank;Potions", "Shop;The Apothecary Shop"],
+        "entity_colors": ["alchemist", "alchemist", "alchemist", "alchemist", "alchemist", "alchemist"],
+        "coordinates": [132, 103]
+    },
+    {
+        "name": "Town Square",
+        "color": "#c8b278",
+        "entities": ["Shop;Potion Reagents"],
+        "entity_colors": ["alchemist"],
+        "coordinates": [113.5, 117.5]
+    },
+    {
+        "name": "Brannof Boulevard",
+        "color": "#c8b278",
+        "entities": ["Forager;Periwinkle"],
+        "entity_colors": ["forager"],
+        "coordinates": [96, 120.5]
+    },
+    {
+        "name": "Brannof\nHall's\nHallway",
+        "color": "#744240",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [81.5, 120.5]
+    },
+    {
+        "name": "Brannof's\nChamber",
+        "color": "#744240",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [81.5, 112.5]
+    },
+    {
+        "name": "Brannof's\nDining\nRoom",
+        "color": "#725848",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [73, 120.5]
+    },
+    {
+        "name": "Hopeport Obelisk",
+        "color": "#889248",
+        "entities": ["Obelisk;Obelisk"],
+        "entity_colors": ["item"],
+        "coordinates": [98.5, 133.5]
+    },
+    {
+        "name": "Eel Street Bridge",
+        "color": "#c8b278",
+        "entities": ["Fisher;Eel"],
+        "entity_colors": ["fisher"],
+        "coordinates": [113.5, 133.5]
+    },
+    {
+        "name": "Melv's\nFishing Supplies",
+        "color": "#725848",
+        "entities": ["Bank;Fishing Bait", "Shop;Fishing Supplies"],
+        "entity_colors": ["fisher", "fisher"],
+        "coordinates": [126.5, 115.5]
+    },
+    {
+        "name": "Old Street West",
+        "color": "#c8b278",
+        "entities": ["Forager;Wallplant"],
+        "entity_colors": ["forager"],
+        "coordinates": [131, 124]
+    },
+    {
+        "name": "Hairdresser",
+        "color": "#a6a6a6",
+        "entities": ["Hairdresser;Hairdresser"],
+        "entity_colors": ["item"],
+        "coordinates": [136, 115.5]
+    },
+    {
+        "name": "Old Street East",
+        "color": "#c7b178",
+        "entities": ["Guard;Deathcrow", "Forager;Wallplant"],
+        "entity_colors": ["neutral", "forager"],
+        "coordinates": [150.5, 123.5]
+    },
+    {
+        "name": "The\nCloakroom",
+        "color": "#3a4d6a",
+        "entities": ["Bank;Capes", "Shop;Cape Shop"],
+        "entity_colors": ["item", "item"],
+        "coordinates": [145, 115.5]
+    },
+    {
+        "name": "Pipe\nAlley",
+        "color": "#b3a776",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [148.5, 110]
+    },
+    {
+        "name": "The Forager's\nWarehouse",
+        "color": "#6a5e4c",
+        "entities": ["Shop;The Forager's Warehouse"],
+        "entity_colors": ["forager"],
+        "coordinates": [159.5, 114.5]
+    },
+    {
+        "name": "Enchantress\nShop",
+        "color": "#765e94",
+        "entities": ["Enchantress;Enchantress"],
+        "entity_colors": ["item"],
+        "coordinates": [152, 133]
+    },
+    {
+        "name": "Town Gates",
+        "color": "#c6b077",
+        "entities": ["Guard;Deathcrow"],
+        "entity_colors": ["neutral"],
+        "coordinates": [170.5, 123]
+    },
+    {
+        "name": "Naybeth's\nHouse",
+        "color": "#6a5e4c",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [166, 132]
+    },
+    {
+        "name": "North Walls",
+        "color": "#969454",
+        "entities": ["Guard;Goblin Soldier"],
+        "entity_colors": ["aggressive"],
+        "coordinates": [171, 108.5]
+    },
+    {
+        "name": "South Walls",
+        "color": "#959353",
+        "entities": ["Guard;Goblin Chief"],
+        "entity_colors": ["aggressive"],
+        "coordinates": [171.5, 138]
+    },
+    {
+        "name": "Tim's\nAlley",
+        "color": "#b4a876",
+        "entities": ["Guard;Thief"],
+        "entity_colors": ["aggressive"],
+        "coordinates": [144.5, 132]
+    },
+    {
+        "name": "Little Square",
+        "color": "#a6926c",
+        "entities": ["Forager;Passive;Louse", "Forager;Passive;Shimmerbean", "Forager;Passive;Spinseed", "Forager;Passive;Sprey"],
+        "entity_colors": ["forager"],
+        "coordinates": [139.5, 148.5]
+    },
+    {
+        "name": "Murk Close",
+        "color": "#988664",
+        "entities": ["Guard;Passive;Thug", "Storage;Storage Rift"],
+        "entity_colors": ["neutral", "item"],
+        "coordinates": [161, 141.5]
+    },
+    {
+        "name": "Nook Alley",
+        "color": "#a6926c",
+        "entities": ["Forager;Passive;Scrap Metal"],
+        "entity_colors": ["forager"],
+        "coordinates": [155, 148]
+    },
+    {
+        "name": "Limpet Lane",
+        "color": "#b2a675",
+        "entities": ["Guard;Thief"],
+        "entity_colors": ["aggressive"],
+        "coordinates": [150.5, 153.5]
+    },
+    {
+        "name": "Monob\nRow",
+        "color": "#978564",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [141, 136.5]
+    },
+    {
+        "name": "Wilhope Passage",
+        "color": "#a5916b",
+        "entities": ["Guard;Passive;Street Louse"],
+        "entity_colors": ["neutral"],
+        "coordinates": [135, 141.5]
+    },
+    {
+        "name": "Thieves'\nDen",
+        "color": "#566176",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [133.5, 133]
+    },
+    {
+        "name": "Wilhope Crossing",
+        "color": "#b4a876",
+        "entities": ["Fisher;Pufferfish"],
+        "entity_colors": ["fisher"],
+        "coordinates": [125.5, 147.5]
+    },
+    {
+        "name": "Eel Street",
+        "color": "#c8b278",
+        "entities": ["Shop;The Frequently Fresh Fish Stall"],
+        "entity_colors": ["fisher"],
+        "coordinates": [116.5, 151.5]
+    },
+    {
+        "name": "The Hooked\nHand",
+        "color": "#725848",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [104.5, 146]
+    },
+    {
+        "name": "Central Waterfront",
+        "color": "#c8b278",
+        "entities": ["Fisher;Passive;Bream"],
+        "entity_colors": ["fisher"],
+        "coordinates": [109, 161]
+    },
+    {
+        "name": "Salty Swine",
+        "color": "#2c2c2c",
+        "entities": ["Fisher;Passive;Mackibut"],
+        "entity_colors": ["fisher"],
+        "coordinates": [109, 180]
+    },
+    {
+        "name": "Boardwalk",
+        "color": "#70644f",
+        "entities": ["Fisher;Passive;Herring"],
+        "entity_colors": ["fisher"],
+        "coordinates": [128.5, 161]
+    },
+    {
+        "name": "East Waterfront",
+        "color": "#c7b178",
+        "entities": ["Fisher;Venture;Oyster", "Forager;Passive; Scrap Metal"],
+        "entity_colors": ["fisher", "forager"],
+        "coordinates": [148, 161.5]
+    },
+    {
+        "name": "Vacant Pier",
+        "color": "#70644f",
+        "entities": ["Fisher;Passive;Dab"],
+        "entity_colors": ["fisher"],
+        "coordinates": [143.5, 176.5]
+    },
+    {
+        "name": "Vincible",
+        "color": "#5e442e",
+        "entities": ["Fisher;Passive;Sturlet"],
+        "entity_colors": ["fisher"],
+        "coordinates": [158, 180]
+    },
+    {
+        "name": "Little Lucy",
+        "color": "#9f6a52",
+        "entities": ["Fisher;Passive;Wraddock"],
+        "entity_colors": ["fisher"],
+        "coordinates": [91, 178]
+    },
+    {
+        "name": "West Waterfront",
+        "color": "#c6b077",
+        "entities": ["Fisher;Venture;Lobster"],
+        "entity_colors": ["fisher"],
+        "coordinates": [90, 161]
+    },
+    {
+        "name": "Scrapyard",
+        "color": "#a5916b",
+        "entities": ["Shop;Scrap Merchant"],
+        "entity_colors": ["forager"],
+        "coordinates": [82.5, 142.5]
+    },
+    {
+        "name": "Sea Road",
+        "color": "#b3a776",
+        "entities": ["Shop;The Seaside Rock Shop", "Storage;Storage Rift"],
+        "entity_colors": ["forager", "item"],
+        "coordinates": [70, 155.5]
+    },
+    {
+        "name": "East Beach",
+        "color": "#cdaf6e",
+        "entities": ["Guard;Passive;Crab", "Fisher;Flounder", "Forager;Kelp", "Forager;Shell"],
+        "entity_colors": ["neutral", "fisher", "forager", "forager"],
+        "coordinates": [67, 169]
+    },
+    {
+        "name": "Seashells Seashore",
+        "color": "#c7a364",
+        "entities": ["Fisher;Bass", "Forager;Shell", "Forager;Passive;Anemone", "Forager;Passive;Sea Potato", "Forager;Passive;Sea Slug"],
+        "entity_colors": ["fisher", "forager", "forager", "forager", "forager"],
+        "coordinates": [50, 166]
+    },
+    {
+        "name": "Jellyfish Landing",
+        "color": "#c9a566",
+        "entities": ["Guard;Passive;Jellyfish", "Forager;Kelp", "Forager;Starfish"],
+        "entity_colors": ["neutral", "forager", "forager"],
+        "coordinates": [31.5, 162]
+    },
+    {
+        "name": "Starfish Point",
+        "color": "#bb8f55",
+        "entities": ["Fisher;Cod", "Forager;Starfish", "Forager;Wrack"],
+        "entity_colors": ["fisher", "forager", "forager"],
+        "coordinates": [14, 164]
+    },
+    {
+        "name": "Ray Bay",
+        "color": "#c39e60",
+        "entities": ["Fisher;Ray", "Forager;Limpet"],
+        "entity_colors": ["fisher", "forager"],
+        "coordinates": [15.5, 146]
+    },
+    {
+        "name": "Pirate Hideout",
+        "color": "#ceae6d",
+        "entities": ["Guard;Passive;Pirate", "Fisher;Gunard", "Forager;Limpet", "Forager;Wrack"],
+        "entity_colors": ["neutral", "fisher", "forager", "forager"],
+        "coordinates": [10.5, 127]
+    },
+    {
+        "name": "Fallen Monument",
+        "color": "#899754",
+        "entities": ["Guard;Carnivorous Plant", "Forager;Hogberries", "Forager;Potato", "Bank;Monument Pieces", "Shop;Fallen Monument"],
+        "entity_colors": ["neutral", "forager", "forager", "forager", "forager"],
+        "coordinates": [28, 144]
+    },
+    {
+        "name": "Overgrown Field",
+        "color": "#889146",
+        "entities": ["Guard;Carnivorous Plant", "Forager;Bellplant", "Forager;Potato"],
+        "entity_colors": ["neutral", "forager", "forager"],
+        "coordinates": [48.5, 146.5]
+    },
+    {
+        "name": "Overgrown Pond",
+        "color": "#899548",
+        "entities": ["Guard;Passive;Bugman", "Forager;Nettle", "Forager;Pond Weed"],
+        "entity_colors": ["neutral", "forager", "forager"],
+        "coordinates": [63.5, 136]
+    },
+    {
+        "name": "Rubble Road",
+        "color": "#95974c",
+        "entities": ["Guard;Hairbeast", "Forager;Bellplant", "Forager;Water Lily"],
+        "entity_colors": ["neutral", "forager", "forager"],
+        "coordinates": [49, 131]
+    },
+    {
+        "name": "Crater",
+        "color": "#87954b",
+        "entities": ["Guard;Passive;Giant Ant", "Forager;Hogberries", "Forager;Monument Piece"],
+        "entity_colors": ["neutral", "forager", "forager"],
+        "coordinates": [32.5, 127.5]
+    },
+    {
+        "name": "Overgrown Road",
+        "color": "#858942",
+        "entities": ["Guard;Hairbeast", "Forager;Nettle", "Forager;Water Lily"],
+        "entity_colors": ["neutral", "forager", "forager"],
+        "coordinates": [44.5, 111.5]
+    },
+    {
+        "name": "Wasteland",
+        "color": "#949651",
+        "entities": ["Guard;Ghoul", "Forager;Monument Piece"],
+        "entity_colors": ["aggressive", "forager"],
+        "coordinates": [31.5, 102]
+    },
+    {
+        "name": "Collapsed Hovels",
+        "color": "#949651",
+        "entities": ["Guard;Ghoul", "Forager;Passive;Feather", "Forager;Passive;Maggots", "Forager;Passive;Moth Wing"],
+        "entity_colors": ["aggressive", "forager", "forager", "forager"],
+        "coordinates": [20, 86]
+    },
+    {
+        "name": "Rocky Road",
+        "color": "#856a4c",
+        "entities": ["Guard;Passive;Punkupine"],
+        "entity_colors": ["neutral"],
+        "coordinates": [32.5, 73.5]
+    }
+    ]
