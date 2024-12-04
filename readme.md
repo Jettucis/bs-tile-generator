@@ -8,7 +8,7 @@ You input an image of the Brighter Shores map, and the program will cut up the i
 * If needed, copy the updated icon color data from https://brightershoreswiki.org/w/MediaWiki:Common.less/leaflet.less to map_data/icon_data.less.txt
 * `pip install requirements.txt`
 * `python download_small_icons.py`
-* If needed, change the target filename in config.py
+* If needed, update config.py
 * Create a file called "creds.file" and fill in the information to log into an admin bot wiki account. Write 3 lines in the file:
 ```
 Username

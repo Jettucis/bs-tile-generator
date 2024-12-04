@@ -96,6 +96,9 @@ class RoomData:
         shadow = shadow.filter(ImageFilter.GaussianBlur(shadows['blur_factor']))
         image.alpha_composite(shadow, (x0, y0))
 
+    def get_link(self):
+        return self.titles.get_link() + self.entities.get_link()
+
 
 class RoomEntities:
     def __init__(self, parent: RoomData, room):
@@ -128,6 +131,10 @@ class RoomEntities:
         coordinates = self.get_background_coordinates()
         for i, roomentity in enumerate(self.entities):
             roomentity.render_text(image, canvas, coordinates, i)
+
+    def get_link(self):
+        coordinates = self.get_background_coordinates()
+        return [entity.get_link(coordinates, i) for i, entity in enumerate(self.entities)]
 
 
 class RoomEntity:
@@ -181,6 +188,13 @@ class RoomEntity:
         x_text = x + self.text_offset
         y_text = y + entity['text_shiftdown']
         canvas.text((x_text, y_text), self.text, fill=(0, 0, 0), anchor='lt', font=ENTITY_FONT)
+
+    def get_link(self, coordinates, i):
+        x0 = coordinates[0]
+        y0 = coordinates[1] + i*(entity['height'] + entity['distance_between'])
+        x1 = coordinates[2]
+        y1 = coordinates[3] + i*(entity['height'] + entity['distance_between'])
+        return {'coordinates': [[y0, x0], [y1, x1]], 'link': self.text}
 
 
 class RoomTitles:
@@ -238,7 +252,8 @@ class RoomTitles:
 
     def get_link(self):
         coordinates = self.get_background_coordinates()
-        return {'coordinates': coordinates, 'link': ' '.join([title.text for title in self.titles])}
+        lat_lng_bounds = [[coordinates[1], coordinates[0]], [coordinates[3], coordinates[2]]]
+        return [{'coordinates': lat_lng_bounds, 'link': ' '.join([title.text for title in self.titles])}]
 
 
 class RoomTitle:
@@ -261,20 +276,40 @@ def build_room(image: Image.Image, canvas: ImageDraw.ImageDraw, room):
     room_data.titles.render_shadow(image)
     room_data.titles.render_background(canvas)
     room_data.titles.render_text(canvas)
-    out_json = room_data.titles.get_link()
+    return room_data.get_link()
+
+
+def convert_json_pixels_to_coordinates(links):
+    hopeport_portal_stone_x = math.floor(config.HOPEPORT_PORTAL_STONE_IMAGE_X/config.TILE_WIDTH)
+    hopeport_portal_stone_y = math.floor(config.HOPEPORT_PORTAL_STONE_IMAGE_Y/config.TILE_WIDTH)
+    border_left = config.HOPEPORT_PORTAL_STONE_COORD_X - hopeport_portal_stone_x
+    border_up = config.HOPEPORT_PORTAL_STONE_COORD_Y - hopeport_portal_stone_y
+
+    def pixel_to_coordinate(latlng, round_func):
+        lat = border_up + round_func(latlng[0])/config.TILE_WIDTH
+        lng = border_left + round_func(latlng[1])/config.TILE_WIDTH
+        return [lat, lng]
+
+    for link in links:
+        link['coordinates'][0] = pixel_to_coordinate(link['coordinates'][0], math.floor)
+        link['coordinates'][1] = pixel_to_coordinate(link['coordinates'][1], math.ceil)
 
 
 def build_image(filepath, room_data):
     map = Image.open(filepath)
     image = Image.new('RGBA', map.size, (0, 0, 0, 0))
     canvas = ImageDraw.Draw(image)
+    links = []
     with open(room_data, 'r') as f:
         rooms = json.load(f)
     for room in rooms:
-        build_room(image, canvas, room)
+        links.extend(build_room(image, canvas, room))
+    #convert_json_pixels_to_coordinates(links)
     image.save('out/room_layer.png')
     map.alpha_composite(image)
     map.save('out/composition.png')
+    with open('out/room_data.json', 'w') as f:
+        json.dump(links, f)
 
 
 TITLE_FONT = ImageFont.truetype(font=title['font'], size=title['font_size'])
