@@ -304,7 +304,7 @@ def build_image(filepath, room_data):
         rooms = json.load(f)
     for room in rooms:
         links.extend(build_room(image, canvas, room))
-    #convert_json_pixels_to_coordinates(links)
+    convert_json_pixels_to_coordinates(links)
     image.save('out/room_layer.png')
     map.alpha_composite(image)
     map.save('out/composition.png')
