@@ -220,7 +220,7 @@
         "name": "Little Square",
         "color": "#a6926c",
         "entities": ["Forager;Passive;Louse", "Forager;Passive;Shimmerbean", "Forager;Passive;Spinseed", "Forager;Passive;Sprey"],
-        "entity_colors": ["forager"],
+        "entity_colors": ["forager", "forager", "forager", "forager"],
         "coordinates": [139.5, 148.5]
     },
     {
@@ -459,6 +459,629 @@
         "color": "#856a4c",
         "entities": ["Guard;Passive;Punkupine"],
         "entity_colors": ["neutral"],
-        "coordinates": [32.5, 73.5]
+        "coordinates": [32.5, 74]
+    },
+    {
+        "name": "Road to Hopeport",
+        "color": "#959354",
+        "entities": ["Gatherer;Globeplant"],
+        "entity_colors": ["gatherer"],
+        "coordinates": [189.5, 123.5]
+    },
+    {
+        "name": "Forest Clearing",
+        "color": "#859554",
+        "entities": ["Scout;Outlaw", "Gatherer;Globeplant"],
+        "entity_colors": ["neutral", "gatherer"],
+        "coordinates": [209.5, 123.5]
+    },
+    {
+        "name": "Leafy Lane",
+        "color": "#869654",
+        "entities": ["Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": [201, 103]
+    },
+    {
+        "name": "Leafy Junction",
+        "color": "#969454",
+        "entities": ["Scout;Passive;Wildman", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entity_colors": ["neutral", "woodcutter", "woodcutter"],
+        "coordinates": [205.5, 84.5]
+    },
+    {
+        "name": "Bear Clearing",
+        "color": "#968454",
+        "entities": ["Scout;Bear", "Gatherer;Goat Horn", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entity_colors": ["neutral", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": [187, 83.5]
+    },
+    {
+        "name": "Bear Behind",
+        "color": "#967854",
+        "entities": ["Scout;Bear", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entity_colors": ["neutral", "woodcutter", "woodcutter"],
+        "coordinates": [168.5, 83.5]
+    },
+    {
+        "name": "Two Headed\nBear Clearing",
+        "color": "#967854",
+        "entities": ["Gatherer;Goat Horn", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": [189.5, 63.5]
+    },
+    {
+        "name": "Tangled Lane",
+        "color": "#8f9554",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [221, 84.5]
+    },
+    {
+        "name": "Narrow Path",
+        "color": "#968454",
+        "entities": ["Gatherer;Leek", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": [216.5, 77]
+    },
+    {
+        "name": "Thin Trail",
+        "color": "#967854",
+        "entities": ["Gatherer;Leek", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": [216.5, 64]
+    },
+    {
+        "name": "Magic Cave",
+        "color": "#866a4c",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [222.5, 48.5]
+    },
+    {
+        "name": "Tangled Path",
+        "color": "#869654",
+        "entities": ["Storage;Storage Rift"],
+        "entity_colors": ["item"],
+        "coordinates": [235, 84]
+    },
+    {
+        "name": "Stump Clearing",
+        "color": "#7a9553",
+        "entities": ["Scout;Passive;Moss Monster", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entity_colors": ["neutral", "woodcutter", "woodcutter"],
+        "coordinates": [250.5, 81]
+    },
+    {
+        "name": "Canopy Lane",
+        "color": "#7b9654",
+        "entities": ["Gatherer;Passive;Beetroot", "Gatherer;Passive;Hazelnut", "Gatherer;Passive;Worms", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entity_colors": ["gatherer", "gatherer", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": [232.5, 73.5]
+    },
+    {
+        "name": "Canopy Junction",
+        "color": "#859553",
+        "entities": ["Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": [240.5, 61.5]
+    },
+    {
+        "name": "Treeway Clearing",
+        "color": "#919654",
+        "entities": ["Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": [245.5, 52]
+    },
+    {
+        "name": "Treeway Junction",
+        "color": "#919654",
+        "entities": ["Scout;Spriggan"],
+        "entity_colors": ["neutral"],
+        "coordinates": [251, 41.5]
+    },
+    {
+        "name": "Rising Trail",
+        "color": "#958353",
+        "entities": ["Scout;Bramblelith"],
+        "entity_colors": ["neutral"],
+        "coordinates": []
+    },
+    {
+        "name": "Wooded Clifftop",
+        "color": "#7c7448",
+        "entities": ["Scout;Bramblelith"],
+        "entity_colors": ["neutral"],
+        "coordinates": []
+    },
+    {
+        "name": "Road to\nNowhere Much",
+        "color": "#958354",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Peat Bog",
+        "color": "#7c7448",
+        "entities": ["Gatherer;Dock Leaf"],
+        "entity_colors": ["gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "North Peat Bog",
+        "color": "#6d663a",
+        "entities": ["Gatherer;Dock Leaf"],
+        "entity_colors": ["gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Hopeforest North\nPortal Stone",
+        "color": "#856a4c",
+        "entities": ["Portal_Stone;Portal Stone"],
+        "entity_colors": ["item"],
+        "coordinates": []
+    },
+    {
+        "name": "Berry Glade",
+        "color": "#7c8052",
+        "entities": ["Gatherer;Haleberries", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Treeway Trail",
+        "color": "#7c8052",
+        "entities": ["Scout;Spriggan", "Gatherer;Haleberries", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entity_colors": ["neutral", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Cutters Clearing",
+        "color": "#7c8052",
+        "entities": ["Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches", "Woodcutter;Passive;Split Wood for Murphy", "Bank;Bones"],
+        "entity_colors": ["woodcutter", "woodcutter", "woodcutter", "gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Twisted Road",
+        "color": "#646648",
+        "entities": ["Scout;Shade", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entity_colors": ["aggressive", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Gnarled Path",
+        "color": "#4e5040",
+        "entities": ["Gatherer;Femur Shard", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Wolves' Den",
+        "color": "#3c3e36",
+        "entities": ["Scout;Passive;Wolf", "Gatherer;Femur Shard", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entity_colors": ["neutral", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Twisted\nJunction",
+        "color": "#4e5040",
+        "entities": ["Scout;Shade"],
+        "entity_colors": ["aggressive"],
+        "coordinates": []
+    },
+    {
+        "name": "Overgrown Trail",
+        "color": "#3c3e36",
+        "entities": ["Gatherer;Bone Spike", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches", "Storage;Storage Rift"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter", "item"],
+        "coordinates": []
+    },
+    {
+        "name": "Crystal Clearing",
+        "color": "#343432",
+        "entities": ["Gatherer;Bone Spike", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Bramble Path",
+        "color": "#3c3e36",
+        "entities": ["Woodcutter;Brambles", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entity_colors": ["woodcutter", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Mushroom Grove",
+        "color": "#4e5040",
+        "entities": ["Gatherer;Passive;Acorn", "Gatherer;Passive;Ancient Coin", "Gatherer;Passive;Sheep Rib", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entity_colors": ["gatherer", "gatherer", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Shortcut",
+        "color": "#565e40",
+        "entities": ["Woodcutter;Brambles", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entity_colors": ["woodcutter", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Stumped Path",
+        "color": "#687a4a",
+        "entities": ["Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Snakes Path",
+        "color": "#687a4a",
+        "entities": ["Scout;Viper", "Gatherer;Snake Scale", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
+        "entity_colors": ["aggressive", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Snakes Clearing",
+        "color": "#687a4a",
+        "entities": ["Scout;Viper", "Gatherer;Chestnut", "Gatherer;Snake Scale", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
+        "entity_colors": ["aggressive", "gatherer", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Central Junction",
+        "color": "#688e50",
+        "entities": ["Gatherer;Chestnut", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Logging Area",
+        "color": "#7a9553",
+        "entities": ["Gatherer;Thistle", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches", "Woodcutter;Passive;Split Wood for Claude"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Central Crossroads",
+        "color": "#688e50",
+        "entities": ["Gatherer;Passive;Beetle", "Gatherer;Passive;Bug", "Gatherer;Passive;Lichen", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
+        "entity_colors": ["gatherer", "gatherer", "gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "North Central Path",
+        "color": "#688e50",
+        "entities": ["Woodcutter;Hickory Log", "Woodcutter;Passive;Hickory Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Secluded Junction",
+        "color": "#50814c",
+        "entities": ["Gatherer;Orchid", "Woodcutter;Hickory Log", "Woodcutter;Passive;Hickory Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Luscious Glade",
+        "color": "#50824c",
+        "entities": ["Gatherer;Orchid", "Woodcutter;Hickory Log", "Woodcutter;Passive;Hickory Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Secluded Path",
+        "color": "#50824c",
+        "entities": ["Gatherer;Tangfruit", "Woodcutter;Hickory Log", "Woodcutter;Passive;Hickory Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Dryad Glade",
+        "color": "#50824c",
+        "entities": ["Gatherer;Tangfruit"],
+        "entity_colors": ["gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Secluded Dead End",
+        "color": "#4f814b",
+        "entities": ["Scout;Passive;Satyr", "Woodcutter;Hickory Log", "Woodcutter;Passive;Hickory Branches"],
+        "entity_colors": ["neutral", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Forest Path",
+        "color": "#789252",
+        "entities": ["Scout;Outlaw"],
+        "entity_colors": ["neutral"],
+        "coordinates": []
+    },
+    {
+        "name": "Goblin Camp",
+        "color": "#789252",
+        "entities": ["Scout;Goblin", "Obelisk;Obelisk"],
+        "entity_colors": ["aggressive", "item"],
+        "coordinates": []
+    },
+    {
+        "name": "Huntsman's Clearing",
+        "color": "#929654",
+        "entities": ["Scout;Passive;Wild Boar", "Gatherer;Dandelion"],
+        "entity_colors": ["neutral", "gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Mushroom Glade",
+        "color": "#919554",
+        "entities": ["Gatherer;Dandelion"],
+        "entity_colors": ["gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Huntsman's\nLodge",
+        "color": "#7f725c",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Timberwell Road",
+        "color": "#869654",
+        "entities": ["Woodcutter;Ash Log", "Woodcutter;Passive;Ash Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Timberwell Green",
+        "color": "#8e9246",
+        "entities": ["Gatherer;Catkin", "Woodcutter;Ash Log", "Woodcutter;Passive;Ash Branches", "Shop;Morauce's Pointy Implements", "Bank;Timber"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter", "woodcutter", "carpenter"],
+        "coordinates": []
+    },
+    {
+        "name": "Carpenter's Workshop",
+        "color": "#8a8e70",
+        "entities": ["Bank;Lumber", "Carpenter;Sawmill", "Carpenter;Passive;Furniture Assembly Station", "Carpenter;Passive;Workbench", "Shop;Timber Merchant"],
+        "entity_colors": ["woodcutter", "carpenter", "carpenter", "carpenter", "carpenter"],
+        "coordinates": []
+    },
+    {
+        "name": "Tarana and\nAlden's Home",
+        "color": "#7f715b",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Gwen's Lumber",
+        "color": "#80725c",
+        "entities": ["Shop;Gwen's Lumber"],
+        "entity_colors": ["woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Timberwell\nSide Road",
+        "color": "#8e8442",
+        "entities": ["Gatherer;Apple", "Woodcutter;Ash Log", "Woodcutter;Passive;Ash Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Timberwell\nSupplies",
+        "color": "#80725c",
+        "entities": ["Shop;Timberwell Supplies"],
+        "entity_colors": ["item"],
+        "coordinates": []
+    },
+    {
+        "name": "The Color Wheel",
+        "color": "#80725c",
+        "entities": ["Palette;Dyes"],
+        "entity_colors": ["palette"],
+        "coordinates": []
+    },
+    {
+        "name": "Mr McGrish's\nGarden",
+        "color": "#868640",
+        "entities": ["Gatherer;Apple", "Woodcutter;Ash Log", "Woodcutter;Passive;Ash Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Mr McGrish's\nHouse",
+        "color": "#7f725c",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Mine Road West",
+        "color": "#688e50",
+        "entities": ["Gatherer;Catkin", "Gatherer;Passive;Aboredon Egg", "Gatherer;Passive;Shoot", "Gatherer;Passive;Stalks"],
+        "entity_colors": ["gatherer", "gatherer", "gatherer", "gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Tree Lined Trail",
+        "color": "#54864c",
+        "entities": ["Scout;Passive;Aboredon", "Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entity_colors": ["neutral", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Tree Line Track",
+        "color": "#4c7e4a",
+        "entities": ["Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Hopeforest Ferry",
+        "color": "#687e4a",
+        "entities": ["Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Ferry Crossing",
+        "color": "#697e4a",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Ferry South Shore",
+        "color": "#697e4a",
+        "entities": ["Gatherer;Sage", "Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Himatik Ruins",
+        "color": "#829646",
+        "entities": ["Gatherer;Sage", "Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Mine Road East",
+        "color": "#5c885a",
+        "entities": ["Scout;Passive;Giant Fly", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["neutral", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Hopeforest\nGuard Shack",
+        "color": "#7e715b",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Small Clearing",
+        "color": "#54864c",
+        "entities": ["Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Acidic Avenue",
+        "color": "#4c7e4a",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Pool of Rainbows",
+        "color": "#3d6b6d",
+        "entities": ["Storage;Storage Rift", "Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entity_colors": ["item", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Barricades",
+        "color": "#626a46",
+        "entities": ["Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Cliffside Path",
+        "color": "#626a46",
+        "entities": ["Gatherer;Bitterfruit", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Cliffside Shortcut",
+        "color": "#626a46",
+        "entities": ["Woodcutter;Brambles", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["woodcutter", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Cliffside Junction",
+        "color": "#626a46",
+        "entities": ["Scout;Passive;Tree Cat", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["neutral", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Cliffside Trail",
+        "color": "#67794a",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Cyclops Path",
+        "color": "#626a46",
+        "entities": ["Gatherer;Rams Horn"],
+        "entity_colors": ["gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Quiet Grove",
+        "color": "#626a46",
+        "entities": ["Gatherer;Rams Horn"],
+        "entity_colors": ["gatherer"],
+        "coordinates": []
+    },
+    {
+        "name": "Path of Good\nIntentions",
+        "color": "#5c885a",
+        "entities": ["Gatherer;Bitterfruit", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Fern Junction",
+        "color": "#5e9852",
+        "entities": ["Gatherer;Clover", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Lumber Clearing",
+        "color": "#688e50",
+        "entities": ["Gatherer;Clover", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches", "Woodcutter;Split Wood for Hanna"],
+        "entity_colors": ["gatherer", "woodcutter", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Ivy Trail",
+        "color": "#5c885a",
+        "entities": ["Scout;Wendigo", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["aggressive", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Ivy Junction",
+        "color": "#4c8454",
+        "entities": ["Scout;Wendigo", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entity_colors": ["aggressive", "woodcutter", "woodcutter"],
+        "coordinates": []
+    },
+    {
+        "name": "Huntsman's Path",
+        "color": "#69894c",
+        "entities": ["Storage;Storage Rift"],
+        "entity_colors": ["item"],
+        "coordinates": []
+    },
+    {
+        "name": "Ivy\nPath",
+        "color": "#53844b",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": []
+    },
+    {
+        "name": "Hopeforest Central\nPortal Stone",
+        "color": "#5d9651",
+        "entities": ["Portal_Stone;Portal Stone"],
+        "entity_colors": ["item"],
+        "coordinates": []
     }
-    ]
+]

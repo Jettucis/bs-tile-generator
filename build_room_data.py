@@ -5,6 +5,8 @@ import math
 import re
 import os
 
+Image.MAX_IMAGE_PIXELS = 1000000000
+
 SCALE = config.TILE_WIDTH  # 48
 multiplier = SCALE/48
 
