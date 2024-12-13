@@ -9,7 +9,7 @@
 @bonewright: #B0B897;
 @miner: #749696;
 @blacksmith: #B4A432;
-@stonemason: #808789;
+@stonemason: #9C8A7C;
 @detective: #5AB2BE;
 @leatherworker: #866E62;
 @merchant: #78B492;
