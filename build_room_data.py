@@ -298,18 +298,24 @@ def convert_json_pixels_to_coordinates(links):
 
 
 def build_image(filepath, room_data):
+    print('Parsing room data')
     map = Image.open(filepath)
     image = Image.new('RGBA', map.size, (0, 0, 0, 0))
     canvas = ImageDraw.Draw(image)
     links = []
     with open(room_data, 'r') as f:
         rooms = json.load(f)
-    for room in rooms:
+    for i, room in enumerate(rooms):
+        if i % 20 == 0:
+            print(f'{100*i//len(rooms)}%')
         links.extend(build_room(image, canvas, room))
     convert_json_pixels_to_coordinates(links)
+    print('Saving out/room_layer.png')
     image.save('out/room_layer.png')
+    print('Making out/composition.png')
     map.alpha_composite(image)
     map.save('out/composition.png')
+    print('Making out/room_data.json')
     with open('out/room_data.json', 'w') as f:
         json.dump(links, f)
 

@@ -574,11 +574,11 @@
         "coordinates": [245.5, 52]
     },
     {
-        "name": "Treeway Junction",
+        "name": "Treeway\nJunction",
         "color": "#919654",
         "entities": ["Scout;Spriggan"],
         "entity_colors": ["neutral"],
-        "coordinates": [251, 41.5]
+        "coordinates": [251, 64.5]
     },
     {
         "name": "Rising Trail",
@@ -640,7 +640,7 @@
         "name": "Cutters Clearing",
         "color": "#7c8052",
         "entities": ["Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches", "Woodcutter;Passive;Split Wood for Murphy", "Bank;Bones"],
-        "entity_colors": ["woodcutter", "woodcutter", "woodcutter", "gatherer"],
+        "entity_colors": ["woodcutter", "woodcutter", "woodcutter", "bonewright"],
         "coordinates": [270.5, 76.5]
     },
     {
@@ -970,7 +970,7 @@
         "color": "#4c7e4a",
         "entities": [],
         "entity_colors": [],
-        "coordinates": [149, 201.5]
+        "coordinates": [249, 201.5]
     },
     {
         "name": "Pool of Rainbows",
