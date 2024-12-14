@@ -1339,7 +1339,7 @@
     {
         "name": "Goblin Marketplace",
         "color": "#464842",
-        "entities": ["Bank;Bobble's Oresome Ores", "Bank;Pans and Pickaxes", "Bank;Poffit's Interesting Rocks", "Bank;Mogorob's Stoneware Assortment"],
+        "entities": ["Shop;Bobble's Oresome Ores", "Shop;Pans and Pickaxes", "Shop;Poffit's Interesting Rocks", "Shop;Mogorob's Stoneware Assortment"],
         "entity_colors": ["miner", "miner", "miner", "stonemason"],
         "coordinates": [273, 282]
     },
@@ -1556,7 +1556,7 @@
     {
         "name": "Gnome Dwelling",
         "color": "#2e506e",
-        "entities": ["Bank;Torrelli Jewelry Trading"],
+        "entities": ["Shop;Torrelli Jewelry Trading"],
         "entity_colors": ["blacksmith"],
         "coordinates": [360, 192]
     },
