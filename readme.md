@@ -22,3 +22,5 @@ Copy out/links_debug.txt to https://brightershoreswiki.org/w/User:Gau_Cho/Overla
 `python run_vips.py` to break up the maps into tiles
 Verify that you are satisfied with the generated tiles
 `python upload.py`
+Copy out/room_data.json to https://github.com/GauChoob/bs-cartography/blob/main/geojson/room_data.json
+Change the value of the cache_buster (YMMDD) here: https://github.com/GauChoob/bs-cartography/blob/main/src/config.js
