@@ -1206,7 +1206,7 @@
     {
         "name": "Leech Pools",
         "color": "#2c4e6c",
-        "entities": ["Blacksmith;Stonemason;Gas Leeches"],
+        "entities": ["Blacksmith;Stonemason;Gas Leeches$Gas Leech"],
         "entity_colors": ["item"],
         "coordinates": [277.5, 218.5]
     },
@@ -2144,7 +2144,7 @@
     {
         "name": "Outer Market",
         "color": "#3a5854",
-        "entities": ["Shop;Leather Stall", "Merchant;Passive;Leather Offcuts", "Merchant;Balance;Souvenir Stall", "Merchant;Passive;Stall Assistant", "Detective;Spotting Thieves"],
+        "entities": ["Shop;Leather Stall", "Merchant;Passive;Leather Offcuts$Leather Offcuts (activity)", "Merchant;Balance;Souvenir Stall", "Merchant;Passive;Stall Assistant", "Detective;Spotting Thieves"],
         "entity_colors": ["leatherworker", "merchant", "merchant", "merchant", "detective"],
         "coordinates": [483.5, 116.75]
     },
@@ -2235,7 +2235,7 @@
     {
         "name": "Waterfront Market",
         "color": "#807660",
-        "entities": ["Merchant;Balance;Jannaler's Wines", "Merchant;Balance;Textiles Stall", "Merchant;Passive;Stall Assistant", "Detective;Spotting Thieves", "Detective;Passive;Smugglers' Stakeout"],
+        "entities": ["Merchant;Balance;Jennaler's Wines", "Merchant;Balance;Textiles Stall", "Merchant;Passive;Stall Assistant", "Detective;Spotting Thieves", "Detective;Passive;Smugglers' Stakeout"],
         "entity_colors": ["merchant", "merchant", "merchant", "detective", "detective"],
         "coordinates": [455.5, 168.25]
     },
