@@ -441,6 +441,13 @@
         "coordinates": [44.5, 111.5]
     },
     {
+        "name": "Hidden\nCavern",
+        "color": "#846b4a",
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [47.5, 92]
+    },
+    {
         "name": "Wasteland",
         "color": "#949651",
         "entities": ["Guard;Ghoul", "Forager;Monument Piece"],
