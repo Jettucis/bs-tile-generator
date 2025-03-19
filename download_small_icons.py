@@ -23,6 +23,7 @@ def download_images(images):
 if __name__ == "__main__":
     # List copied from https://brightershoreswiki.org/w/Brighter_Shores:Orphanage
     images = [
+        'Combat',
         'Guard',
         'Chef',
         'Fisher',
@@ -46,6 +47,7 @@ if __name__ == "__main__":
         'Clipboard',
         'Enchantress',
         'Hairdresser',
+        'Infusionist',
         'Item',
         'Talk',
         'Obelisk',

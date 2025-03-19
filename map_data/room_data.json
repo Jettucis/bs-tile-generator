@@ -23,7 +23,7 @@
     {
         "name": "Sparring Area",
         "color": "#969454",
-        "entities": ["Guard;Sparring Guard"],
+        "entities": ["Combat;Sparring Guard"],
         "entity_colors": ["neutral"],
         "coordinates": [87, 87]
     },
@@ -149,7 +149,7 @@
     {
         "name": "Old Street East",
         "color": "#c7b178",
-        "entities": ["Guard;Deathcrow", "Forager;Wallplant"],
+        "entities": ["Combat;Deathcrow", "Forager;Wallplant"],
         "entity_colors": ["neutral", "forager"],
         "coordinates": [150.5, 123.5]
     },
@@ -177,14 +177,14 @@
     {
         "name": "Enchantress\nShop",
         "color": "#765e94",
-        "entities": ["Enchantress;Enchantress"],
-        "entity_colors": ["item"],
-        "coordinates": [152, 133]
+        "entities": [],
+        "entity_colors": [],
+        "coordinates": [152, 133.5]
     },
     {
         "name": "Town Gates",
         "color": "#c6b077",
-        "entities": ["Guard;Deathcrow"],
+        "entities": ["Combat;Deathcrow"],
         "entity_colors": ["neutral"],
         "coordinates": [170.5, 123]
     },
@@ -198,21 +198,21 @@
     {
         "name": "North Walls",
         "color": "#969454",
-        "entities": ["Guard;Goblin Soldier"],
+        "entities": ["Combat;Goblin Soldier"],
         "entity_colors": ["aggressive"],
         "coordinates": [171, 108.5]
     },
     {
         "name": "South Walls",
         "color": "#959353",
-        "entities": ["Guard;Goblin Chief"],
+        "entities": ["Combat;Goblin Chief"],
         "entity_colors": ["aggressive"],
         "coordinates": [171.5, 138]
     },
     {
         "name": "Tim's\nAlley",
         "color": "#b4a876",
-        "entities": ["Guard;Thief"],
+        "entities": ["Combat;Thief"],
         "entity_colors": ["aggressive"],
         "coordinates": [144.5, 132]
     },
@@ -226,7 +226,7 @@
     {
         "name": "Murk Close",
         "color": "#988664",
-        "entities": ["Guard;Passive;Thug", "Storage;Storage Rift"],
+        "entities": ["Combat;Passive;Thug", "Storage;Storage Rift"],
         "entity_colors": ["neutral", "item"],
         "coordinates": [161, 141.5]
     },
@@ -240,7 +240,7 @@
     {
         "name": "Limpet Lane",
         "color": "#b2a675",
-        "entities": ["Guard;Thief"],
+        "entities": ["Combat;Thief"],
         "entity_colors": ["aggressive"],
         "coordinates": [150.5, 153.5]
     },
@@ -254,7 +254,7 @@
     {
         "name": "Wilhope Passage",
         "color": "#a5916b",
-        "entities": ["Guard;Passive;Street Louse"],
+        "entities": ["Combat;Passive;Street Louse"],
         "entity_colors": ["neutral"],
         "coordinates": [135, 141.5]
     },
@@ -359,7 +359,7 @@
     {
         "name": "East Beach",
         "color": "#cdaf6e",
-        "entities": ["Guard;Passive;Crab", "Fisher;Flounder", "Forager;Kelp", "Forager;Shell"],
+        "entities": ["Combat;Passive;Crab", "Fisher;Flounder", "Forager;Kelp", "Forager;Shell"],
         "entity_colors": ["neutral", "fisher", "forager", "forager"],
         "coordinates": [67, 169]
     },
@@ -373,7 +373,7 @@
     {
         "name": "Jellyfish Landing",
         "color": "#c9a566",
-        "entities": ["Guard;Passive;Jellyfish", "Forager;Kelp", "Forager;Starfish"],
+        "entities": ["Combat;Passive;Jellyfish", "Forager;Kelp", "Forager;Starfish"],
         "entity_colors": ["neutral", "forager", "forager"],
         "coordinates": [31.5, 162]
     },
@@ -394,49 +394,49 @@
     {
         "name": "Pirate Hideout",
         "color": "#ceae6d",
-        "entities": ["Guard;Passive;Pirate", "Fisher;Gunard", "Forager;Limpet", "Forager;Wrack"],
+        "entities": ["Combat;Passive;Pirate", "Fisher;Gunnard", "Forager;Limpet", "Forager;Wrack"],
         "entity_colors": ["neutral", "fisher", "forager", "forager"],
         "coordinates": [10.5, 127]
     },
     {
         "name": "Fallen Monument",
         "color": "#899754",
-        "entities": ["Guard;Carnivorous Plant", "Forager;Hogberries", "Forager;Potato", "Bank;Monument Pieces", "Shop;Fallen Monument"],
+        "entities": ["Combat;Carnivorous Plant", "Forager;Hogberries", "Forager;Potato", "Bank;Monument Pieces", "Shop;Fallen Monument"],
         "entity_colors": ["neutral", "forager", "forager", "forager", "forager"],
         "coordinates": [28, 144]
     },
     {
         "name": "Overgrown Field",
         "color": "#889146",
-        "entities": ["Guard;Carnivorous Plant", "Forager;Bellplant", "Forager;Potato"],
+        "entities": ["Combat;Carnivorous Plant", "Forager;Bellplant", "Forager;Potato"],
         "entity_colors": ["neutral", "forager", "forager"],
         "coordinates": [48.5, 146.5]
     },
     {
         "name": "Overgrown Pond",
         "color": "#899548",
-        "entities": ["Guard;Passive;Bugman", "Forager;Nettle", "Forager;Pond Weed"],
+        "entities": ["Combat;Passive;Bugman", "Forager;Nettle", "Forager;Pond Weed"],
         "entity_colors": ["neutral", "forager", "forager"],
         "coordinates": [63.5, 136]
     },
     {
         "name": "Rubble Road",
         "color": "#95974c",
-        "entities": ["Guard;Hairbeast", "Forager;Bellplant", "Forager;Water Lily"],
+        "entities": ["Combat;Hairbeast", "Forager;Bellplant", "Forager;Water Lily"],
         "entity_colors": ["neutral", "forager", "forager"],
         "coordinates": [49, 131]
     },
     {
         "name": "Crater",
         "color": "#87954b",
-        "entities": ["Guard;Passive;Giant Ant", "Forager;Hogberries", "Forager;Monument Piece"],
+        "entities": ["Combat;Passive;Giant Ant", "Forager;Hogberries", "Forager;Monument Piece"],
         "entity_colors": ["neutral", "forager", "forager"],
         "coordinates": [32.5, 127.5]
     },
     {
         "name": "Overgrown Road",
         "color": "#858942",
-        "entities": ["Guard;Hairbeast", "Forager;Nettle", "Forager;Water Lily"],
+        "entities": ["Combat;Hairbeast", "Forager;Nettle", "Forager;Water Lily"],
         "entity_colors": ["neutral", "forager", "forager"],
         "coordinates": [44.5, 111.5]
     },
@@ -450,21 +450,21 @@
     {
         "name": "Wasteland",
         "color": "#949651",
-        "entities": ["Guard;Ghoul", "Forager;Monument Piece"],
+        "entities": ["Combat;Ghoul", "Forager;Monument Piece"],
         "entity_colors": ["aggressive", "forager"],
         "coordinates": [31.5, 102]
     },
     {
         "name": "Collapsed Hovels",
         "color": "#949651",
-        "entities": ["Guard;Ghoul", "Forager;Passive;Feather", "Forager;Passive;Maggots", "Forager;Passive;Moth Wing"],
+        "entities": ["Combat;Ghoul", "Forager;Passive;Feather", "Forager;Passive;Maggots", "Forager;Passive;Moth Wing"],
         "entity_colors": ["aggressive", "forager", "forager", "forager"],
         "coordinates": [20, 86]
     },
     {
         "name": "Rocky Road",
         "color": "#856a4c",
-        "entities": ["Guard;Passive;Punkupine"],
+        "entities": ["Combat;Passive;Punkupine"],
         "entity_colors": ["neutral"],
         "coordinates": [32.5, 74]
     },
@@ -478,7 +478,7 @@
     {
         "name": "Forest Clearing",
         "color": "#859554",
-        "entities": ["Scout;Outlaw", "Gatherer;Globeplant"],
+        "entities": ["Combat;Outlaw", "Gatherer;Globeplant"],
         "entity_colors": ["neutral", "gatherer"],
         "coordinates": [209.5, 123.5]
     },
@@ -492,21 +492,21 @@
     {
         "name": "Leafy Junction",
         "color": "#969454",
-        "entities": ["Scout;Passive;Wildman", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entities": ["Combat;Passive;Wildman", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
         "entity_colors": ["neutral", "woodcutter", "woodcutter"],
         "coordinates": [205.5, 84.5]
     },
     {
         "name": "Bear Clearing",
         "color": "#968454",
-        "entities": ["Scout;Bear", "Gatherer;Goat Horn", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entities": ["Combat;Bear", "Gatherer;Goat Horn", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
         "entity_colors": ["neutral", "gatherer", "woodcutter", "woodcutter"],
         "coordinates": [187, 83.5]
     },
     {
         "name": "Bear Behind",
         "color": "#967854",
-        "entities": ["Scout;Bear", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
+        "entities": ["Combat;Bear", "Woodcutter;Yew Log", "Woodcutter;Passive;Yew Branches"],
         "entity_colors": ["neutral", "woodcutter", "woodcutter"],
         "coordinates": [168.5, 83.5]
     },
@@ -555,7 +555,7 @@
     {
         "name": "Stump Clearing",
         "color": "#7a9553",
-        "entities": ["Scout;Passive;Moss Monster", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entities": ["Combat;Passive;Moss Monster", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
         "entity_colors": ["neutral", "woodcutter", "woodcutter"],
         "coordinates": [250.5, 81]
     },
@@ -583,21 +583,21 @@
     {
         "name": "Treeway\nJunction",
         "color": "#919654",
-        "entities": ["Scout;Spriggan"],
+        "entities": ["Combat;Spriggan"],
         "entity_colors": ["neutral"],
         "coordinates": [251, 64.5]
     },
     {
         "name": "Rising Trail",
         "color": "#958353",
-        "entities": ["Scout;Bramblelith"],
+        "entities": ["Combat;Bramblelith"],
         "entity_colors": ["neutral"],
         "coordinates": [237.5, 38.5]
     },
     {
         "name": "Wooded Clifftop",
         "color": "#7c7448",
-        "entities": ["Scout;Bramblelith"],
+        "entities": ["Combat;Bramblelith"],
         "entity_colors": ["neutral"],
         "coordinates": [237, 27.5]
     },
@@ -639,7 +639,7 @@
     {
         "name": "Treeway Trail",
         "color": "#7c8052",
-        "entities": ["Scout;Spriggan", "Gatherer;Haleberries", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
+        "entities": ["Combat;Spriggan", "Gatherer;Haleberries", "Woodcutter;Oak Log", "Woodcutter;Passive;Oak Branches"],
         "entity_colors": ["neutral", "gatherer", "woodcutter", "woodcutter"],
         "coordinates": [266, 65]
     },
@@ -653,7 +653,7 @@
     {
         "name": "Twisted Road",
         "color": "#646648",
-        "entities": ["Scout;Shade", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entities": ["Combat;Shade", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
         "entity_colors": ["aggressive", "woodcutter", "woodcutter"],
         "coordinates": [287.5, 67.5]
     },
@@ -667,14 +667,14 @@
     {
         "name": "Wolves' Den",
         "color": "#3c3e36",
-        "entities": ["Scout;Passive;Wolf", "Gatherer;Femur Shard", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
+        "entities": ["Combat;Passive;Wolf", "Gatherer;Femur Shard", "Woodcutter;Suave Log", "Woodcutter;Passive;Suave Branches"],
         "entity_colors": ["neutral", "gatherer", "woodcutter", "woodcutter"],
         "coordinates": [310.5, 63.5]
     },
     {
         "name": "Twisted\nJunction",
         "color": "#4e5040",
-        "entities": ["Scout;Shade"],
+        "entities": ["Combat;Shade"],
         "entity_colors": ["aggressive"],
         "coordinates": [292, 86]
     },
@@ -723,14 +723,14 @@
     {
         "name": "Snakes Path",
         "color": "#687a4a",
-        "entities": ["Scout;Viper", "Gatherer;Snake Scale", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
+        "entities": ["Combat;Viper", "Gatherer;Snake Scale", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
         "entity_colors": ["aggressive", "gatherer", "woodcutter", "woodcutter"],
         "coordinates": [286, 103]
     },
     {
         "name": "Snakes Clearing",
         "color": "#687a4a",
-        "entities": ["Scout;Viper", "Gatherer;Chestnut", "Gatherer;Snake Scale", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
+        "entities": ["Combat;Viper", "Gatherer;Chestnut", "Gatherer;Snake Scale", "Woodcutter;Poplar Log", "Woodcutter;Passive;Poplar Branches"],
         "entity_colors": ["aggressive", "gatherer", "gatherer", "woodcutter", "woodcutter"],
         "coordinates": [278.5, 117.75]
     },
@@ -793,28 +793,28 @@
     {
         "name": "Secluded Dead End",
         "color": "#4f814b",
-        "entities": ["Scout;Passive;Satyr", "Woodcutter;Hickory Log", "Woodcutter;Passive;Hickory Branches"],
+        "entities": ["Combat;Passive;Satyr", "Woodcutter;Hickory Log", "Woodcutter;Passive;Hickory Branches"],
         "entity_colors": ["neutral", "woodcutter", "woodcutter"],
         "coordinates": [213.5, 94.5]
     },
     {
         "name": "Forest Path",
         "color": "#789252",
-        "entities": ["Scout;Outlaw"],
+        "entities": ["Combat;Outlaw"],
         "entity_colors": ["neutral"],
         "coordinates": [230.5, 118.5]
     },
     {
         "name": "Goblin Camp",
         "color": "#789252",
-        "entities": ["Scout;Goblin", "Obelisk;Obelisk"],
+        "entities": ["Combat;Goblin", "Obelisk;Obelisk"],
         "entity_colors": ["aggressive", "item"],
         "coordinates": [231.5, 130]
     },
     {
         "name": "Huntsman's Clearing",
         "color": "#929654",
-        "entities": ["Scout;Passive;Wild Boar", "Gatherer;Dandelion"],
+        "entities": ["Combat;Passive;Wild Boar", "Gatherer;Dandelion"],
         "entity_colors": ["neutral", "gatherer"],
         "coordinates": [214.5, 140.5]
     },
@@ -912,7 +912,7 @@
     {
         "name": "Tree Lined Trail",
         "color": "#54864c",
-        "entities": ["Scout;Passive;Aboredon", "Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
+        "entities": ["Combat;Passive;Aboredon", "Woodcutter;Juniper Log", "Woodcutter;Passive;Juniper Branches"],
         "entity_colors": ["neutral", "woodcutter", "woodcutter"],
         "coordinates": [236, 192.5]
     },
@@ -954,7 +954,7 @@
     {
         "name": "Mine Road East",
         "color": "#5c885a",
-        "entities": ["Scout;Passive;Giant Fly", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entities": ["Combat;Passive;Giant Fly", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
         "entity_colors": ["neutral", "woodcutter", "woodcutter"],
         "coordinates": [255.5, 180.5]
     },
@@ -1010,7 +1010,7 @@
     {
         "name": "Cliffside Junction",
         "color": "#626a46",
-        "entities": ["Scout;Passive;Tree Cat", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entities": ["Combat;Passive;Tree Cat", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
         "entity_colors": ["neutral", "woodcutter", "woodcutter"],
         "coordinates": [270.5, 138]
     },
@@ -1059,14 +1059,14 @@
     {
         "name": "Ivy Trail",
         "color": "#5c885a",
-        "entities": ["Scout;Wendigo", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entities": ["Combat;Wendigo", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
         "entity_colors": ["aggressive", "woodcutter", "woodcutter"],
         "coordinates": [263.5, 146]
     },
     {
         "name": "Ivy Junction",
         "color": "#4c8454",
-        "entities": ["Scout;Wendigo", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
+        "entities": ["Combat;Wendigo", "Woodcutter;Pine Log", "Woodcutter;Passive;Pine Branches"],
         "entity_colors": ["aggressive", "woodcutter", "woodcutter"],
         "coordinates": [248, 149.5]
     },
@@ -1094,14 +1094,14 @@
     {
         "name": "Mine Back\nEntrance",
         "color": "#345a7c",
-        "entities": ["Minefighter;Minecrawler"],
+        "entities": ["Combat;Minecrawler"],
         "entity_colors": ["neutral"],
         "coordinates": [285, 157.5]
     },
     {
         "name": "Rugged Tunnel",
         "color": "#345a7c",
-        "entities": ["Minefighter;Minecrawler"],
+        "entities": ["Combat;Minecrawler"],
         "entity_colors": ["neutral"],
         "coordinates": [298.5, 157.5]
     },
@@ -1150,14 +1150,14 @@
     {
         "name": "Rat Infested\nJunction",
         "color": "#34587a",
-        "entities": ["Minefighter;Passive;Beastman", "Miner;Flint"],
+        "entities": ["Combat;Passive;Beastman", "Miner;Flint"],
         "entity_colors": ["neutral", "miner"],
         "coordinates": [307.5, 182.25]
     },
     {
         "name": "Ratty Terminus",
         "color": "#2a4c68",
-        "entities": ["Minefighter;Passive;Giant Rat"],
+        "entities": ["Combat;Passive;Giant Rat"],
         "entity_colors": ["neutral"],
         "coordinates": [303.5, 191]
     },
@@ -1206,7 +1206,7 @@
     {
         "name": "Bat Cave",
         "color": "#325676",
-        "entities": ["Minefighter;Passive;Giant Bat"],
+        "entities": ["Combat;Passive;Giant Bat"],
         "entity_colors": ["neutral"],
         "coordinates": [289, 217]
     },
@@ -1248,7 +1248,7 @@
     {
         "name": "Purpladium Vein",
         "color": "#2e506e",
-        "entities": ["Minefighter;Passive;Electric Snail", "Miner;Passive;Purpladium"],
+        "entities": ["Combat;Passive;Electric Snail", "Miner;Passive;Purpladium"],
         "entity_colors": ["neutral", "miner"],
         "coordinates": [290.5, 239.5]
     },
@@ -1262,7 +1262,7 @@
     {
         "name": "Gassy Cave",
         "color": "#344e56",
-        "entities": ["Minefighter;Floor Tentacle"],
+        "entities": ["Combat;Floor Tentacle"],
         "entity_colors": ["aggressive"],
         "coordinates": [300.5, 231.5]
     },
@@ -1276,9 +1276,9 @@
     {
         "name": "Moderate Mineshaft",
         "color": "#404a48",
-        "entities": ["Minefighter;Floor Tentacle"],
+        "entities": ["Combat;Floor Tentacle"],
         "entity_colors": ["aggressive"],
-        "coordinates": [298, 248.5]
+        "coordinates": [308.5, 244.75]
     },
     {
         "name": "Goblin Well",
@@ -1307,6 +1307,13 @@
         "entities": [],
         "entity_colors": [],
         "coordinates": [290, 262]
+    },
+    {
+        "name": "Infusionist's\nShop",
+        "color": "#3a4c6a",
+        "entities": ["Infusionist;Infusionist"],
+        "entity_colors": ["obstacle"],
+        "coordinates": [289, 252.5]
     },
     {
         "name": "Mine Southwest\nPortal Stone",
@@ -1367,7 +1374,7 @@
     {
         "name": "Strange Junction",
         "color": "#344d55",
-        "entities": ["Minefighter;Fire Toad"],
+        "entities": ["Combat;Fire Toad"],
         "entity_colors": ["neutral"],
         "coordinates": [326.75, 250.75]
     },
@@ -1395,28 +1402,28 @@
     {
         "name": "Outside Hollow",
         "color": "#839746",
-        "entities": ["Minefighter;Fire Toad"],
+        "entities": ["Combat;Fire Toad"],
         "entity_colors": ["neutral"],
         "coordinates": [337.75, 249.75]
     },
     {
         "name": "Forsaken\nMine Workings",
         "color": "#334f55",
-        "entities": ["Minefighter;Skeleton Miner"],
+        "entities": ["Combat;Skeleton Miner"],
         "entity_colors": ["aggressive"],
         "coordinates": [332.25, 267.5]
     },
     {
         "name": "Wretched Excavation",
         "color": "#345054",
-        "entities": ["Minefighter;Skeleton Miner"],
+        "entities": ["Combat;Skeleton Miner"],
         "entity_colors": ["aggressive"],
         "coordinates": [346.75, 267]
     },
     {
         "name": "Big River Cavern",
         "color": "#324462",
-        "entities": ["Minefighter;Passive;Corrupted Miner", "Miner;Passive;Gold"],
+        "entities": ["Combat;Passive;Corrupted Miner", "Miner;Passive;Gold"],
         "entity_colors": ["neutral", "miner"],
         "coordinates": [301.5, 204.5]
     },
@@ -1444,7 +1451,7 @@
     {
         "name": "Kobold Cavern",
         "color": "#345256",
-        "entities": ["Minefighter;Passive;Kobold"],
+        "entities": ["Combat;Passive;Kobold"],
         "entity_colors": ["neutral"],
         "coordinates": [325.5, 216.25]
     },
@@ -1465,7 +1472,7 @@
     {
         "name": "Communal\nGoblin Area",
         "color": "#34587a",
-        "entities": ["Minefighter;Goblin Miner"],
+        "entities": ["Combat;Goblin Miner"],
         "entity_colors": ["aggressive"],
         "coordinates": [315.5, 193.75]
     },
@@ -1479,7 +1486,7 @@
     {
         "name": "Goblin\nSleeping Area 2",
         "color": "#2e4f6f",
-        "entities": ["Minefighter;Goblin Miner"],
+        "entities": ["Combat;Goblin Miner"],
         "entity_colors": ["aggressive"],
         "coordinates": [326.5, 187.5]
     },
@@ -1542,14 +1549,14 @@
     {
         "name": "Rockling Cave",
         "color": "#24415b",
-        "entities": ["Minefighter;Passive;Rockling", "Storage;Storage Rift"],
+        "entities": ["Combat;Passive;Rockling", "Storage;Storage Rift"],
         "entity_colors": ["neutral", "item"],
         "coordinates": [346, 169.5]
     },
     {
         "name": "Upper Bridge",
         "color": "#3a4c62",
-        "entities": ["Minefighter;Passive;Dread Shell", "Miner;Granite"],
+        "entities": ["Combat;Passive;Dread Shell", "Miner;Granite"],
         "entity_colors": ["neutral", "miner"],
         "coordinates": [359.5, 177.5]
     },
@@ -1570,28 +1577,28 @@
     {
         "name": "Damp Tunnel",
         "color": "#3a4c61",
-        "entities": ["Minefighter;Metalith"],
+        "entities": ["Combat;Metalith"],
         "entity_colors": ["neutral"],
         "coordinates": [370.5, 174.25]
     },
     {
         "name": "Rock Strewn\nTunnel",
         "color": "#3e465a",
-        "entities": ["Minefighter;Metalith"],
+        "entities": ["Combat;Metalith"],
         "entity_colors": ["neutral"],
         "coordinates": [382, 174]
     },
     {
         "name": "Mutant\nCockroaches",
         "color": "#435b69",
-        "entities": ["Minefighter;Cockroach"],
+        "entities": ["Combat;Cockroach"],
         "entity_colors": ["neutral"],
         "coordinates": [391.5, 186]
     },
     {
         "name": "Cockroach Lair",
         "color": "#304e69",
-        "entities": ["Minefighter;Cockroach"],
+        "entities": ["Combat;Cockroach"],
         "entity_colors": ["neutral"],
         "coordinates": [392, 170]
     },
@@ -1619,14 +1626,14 @@
     {
         "name": "Crumbling Passage",
         "color": "#2d4f6d",
-        "entities": ["Minefighter;Stonewurm"],
+        "entities": ["Combat;Stonewurm"],
         "entity_colors": ["aggressive"],
         "coordinates": [368.5, 196.5]
     },
     {
         "name": "Stonewurm Nests",
         "color": "#2e506e",
-        "entities": ["Minefighter;Stonewurm"],
+        "entities": ["Combat;Stonewurm"],
         "entity_colors": ["aggressive"],
         "coordinates": [384, 194]
     },
@@ -1643,6 +1650,13 @@
         "entities": ["Miner;Passive;Mythstone"],
         "entity_colors": ["miner"],
         "coordinates": [383.5, 213.5]
+    },
+    {
+        "name": "Mollusc Mineshaft",
+        "color": "#223a50",
+        "entities": ["Combat;Passive;Squidbeast"],
+        "entity_colors": ["neutral"],
+        "coordinates": [401.5, 218.5]
     },
     {
         "name": "Bronze Gate",
@@ -1668,16 +1682,23 @@
     {
         "name": "Tormented\nChamber",
         "color": "#365c7f",
-        "entities": ["Minefighter;Wraith"],
+        "entities": ["Combat;Wraith"],
         "entity_colors": ["aggressive"],
         "coordinates": [356, 228.25]
     },
     {
         "name": "Mysterious\nCave",
         "color": "#365c7f",
-        "entities": ["Minefighter;Wraith"],
+        "entities": ["Combat;Wraith"],
         "entity_colors": ["aggressive"],
         "coordinates": [359, 239.25]
+    },
+    {
+        "name": "Mush Room",
+        "color": "#2b4943",
+        "entities": ["Combat;Passive;Mushroom Monster"],
+        "entity_colors": ["neutral"],
+        "coordinates": [345, 238.5]
     },
     {
         "name": "Mine Deep\nPortal Stone",
@@ -1696,7 +1717,7 @@
     {
         "name": "Grimy Tunnel",
         "color": "#223a50",
-        "entities": ["Minefighter;Blob"],
+        "entities": ["Combat;Blob"],
         "entity_colors": ["aggressive"],
         "coordinates": [386.5, 229.5]
     },
@@ -1710,7 +1731,7 @@
     {
         "name": "Slime Pool",
         "color": "#345458",
-        "entities": ["Minefighter;Blob"],
+        "entities": ["Combat;Blob"],
         "entity_colors": ["aggressive"],
         "coordinates": [400.5, 239.25]
     },
@@ -1780,7 +1801,7 @@
     {
         "name": "Vestere Drive",
         "color": "#5e6446",
-        "entities": ["Watchperson;Giant Wasp"],
+        "entities": ["Combat;Giant Wasp"],
         "entity_colors": ["neutral"],
         "coordinates": [483, 43.75]
     },
@@ -1808,7 +1829,7 @@
     {
         "name": "Hamila Jimore's\nGarden",
         "color": "#829545",
-        "entities": ["Watchperson;Giant Wasp"],
+        "entities": ["Combat;Giant Wasp"],
         "entity_colors": ["neutral"],
         "coordinates": [482.5, 52.75]
     },
@@ -1976,14 +1997,14 @@
     {
         "name": "Dawkin Lane",
         "color": "#2c4a46",
-        "entities": ["Watchperson;Street Hag"],
+        "entities": ["Combat;Street Hag"],
         "entity_colors": ["neutral"],
         "coordinates": [440, 86.25]
     },
     {
         "name": "Dawkin Court",
         "color": "#42605e",
-        "entities": ["Watchperson;Street Hag", "Detective;Passive;Gangsters' Stakeout"],
+        "entities": ["Combat;Street Hag", "Detective;Passive;Gangsters' Stakeout"],
         "entity_colors": ["neutral", "detective"],
         "coordinates": [450, 80.75]
     },
@@ -2011,21 +2032,21 @@
     {
         "name": "Sewer\nEntrance",
         "color": "#424e34",
-        "entities": ["Watchperson;Mawchest"],
+        "entities": ["Combat;Mawchest"],
         "entity_colors": ["neutral"],
         "coordinates": [424.5, 55]
     },
     {
         "name": "Southeast Sewer",
         "color": "#425034",
-        "entities": ["Watchperson;Spectral Stalker"],
+        "entities": ["Combat;Spectral Stalker"],
         "entity_colors": ["aggressive"],
         "coordinates": [438, 53.75]
     },
     {
         "name": "Sewer Pool",
         "color": "#424e34",
-        "entities": ["Watchperson;Spectral Stalker"],
+        "entities": ["Combat;Spectral Stalker"],
         "entity_colors": ["aggressive"],
         "coordinates": [433.5, 41.75]
     },
@@ -2039,21 +2060,21 @@
     {
         "name": "Dismal\nDrainage",
         "color": "#445036",
-        "entities": ["Watchperson;Mawchest"],
+        "entities": ["Combat;Mawchest"],
         "entity_colors": ["neutral"],
         "coordinates": [415, 55]
     },
     {
         "name": "Southwest Sewer",
         "color": "#424e34",
-        "entities": ["Watchperson;Sewer Fiend"],
+        "entities": ["Combat;Sewer Fiend"],
         "entity_colors": ["aggressive"],
         "coordinates": [401.5, 55]
     },
     {
         "name": "Sewer Pipes",
         "color": "#424e34",
-        "entities": ["Watchperson;Sewer Fiend"],
+        "entities": ["Combat;Sewer Fiend"],
         "entity_colors": ["aggressive"],
         "coordinates": [402.5, 44.25]
     },
@@ -2102,7 +2123,7 @@
     {
         "name": "Rat Alley",
         "color": "#2c4a44",
-        "entities": ["Watchperson;Passive;Ratman Grunt"],
+        "entities": ["Combat;Passive;Ratman Grunt"],
         "entity_colors": ["neutral"],
         "coordinates": [417, 99.5]
     },
@@ -2200,14 +2221,14 @@
     {
         "name": "Quibble Lane",
         "color": "#a0884f",
-        "entities": ["Watchperson;Spiky Ball"],
+        "entities": ["Combat;Spiky Ball"],
         "entity_colors": ["aggressive"],
         "coordinates": [501.25, 179.5]
     },
     {
         "name": "Smuggler's Cove",
         "color": "#7c6937",
-        "entities": ["Watchperson;Passive;Giant Slug"],
+        "entities": ["Combat;Passive;Giant Slug"],
         "entity_colors": ["neutral"],
         "coordinates": [503.25, 192]
     },
@@ -2277,7 +2298,7 @@
     {
         "name": "Ratmore Rise",
         "color": "#2c4a46",
-        "entities": ["Watchperson;Passive;Trash Heap Monster"],
+        "entities": ["Combat;Passive;Trash Heap Monster"],
         "entity_colors": ["neutral"],
         "coordinates": [484.25, 143]
     },
@@ -2326,7 +2347,7 @@
     {
         "name": "Snag Alley",
         "color": "#2c4a44",
-        "entities": ["Watchperson;Passive;Street Brawler", "Detective;Passive;Muggers' Stakeout"],
+        "entities": ["Combat;Passive;Street Brawler", "Detective;Passive;Muggers' Stakeout"],
         "entity_colors": ["neutral", "detective"],
         "coordinates": [441.5, 131]
     },
@@ -2382,21 +2403,21 @@
     {
         "name": "Dusty Alley",
         "color": "#566258",
-        "entities": ["Watchperson;Zombie"],
+        "entities": ["Combat;Zombie"],
         "entity_colors": ["aggressive"],
         "coordinates": [417.75, 143.75]
     },
     {
         "name": "Dusty Corner",
         "color": "#566258",
-        "entities": ["Watchperson;Zombie"],
+        "entities": ["Combat;Zombie"],
         "entity_colors": ["aggressive"],
         "coordinates": [412.75, 149.75]
     },
     {
         "name": "Dusty Nook",
         "color": "#566258",
-        "entities": ["Watchperson;Passive;Brute"],
+        "entities": ["Combat;Passive;Brute"],
         "entity_colors": ["neutral"],
         "coordinates": [404.5, 143.75]
     },
@@ -2431,14 +2452,14 @@
     {
         "name": "Ratmen Den",
         "color": "#3a4c6a",
-        "entities": ["Watchperson;Passive;Ratman Chief"],
+        "entities": ["Combat;Passive;Ratman Chief"],
         "entity_colors": ["neutral"],
         "coordinates": [401.5, 95.75]
     },
     {
         "name": "Rockbird Clearing",
         "color": "#88743a",
-        "entities": ["Watchperson;Passive;Rockbird"],
+        "entities": ["Combat;Passive;Rockbird"],
         "entity_colors": ["neutral"],
         "coordinates": [377.5, 102.5]
     },
@@ -2508,14 +2529,14 @@
     {
         "name": "Stony Gorge",
         "color": "#8c6e3a",
-        "entities": ["Watchperson;Sabertooth Tiger"],
+        "entities": ["Combat;Sabertooth Tiger"],
         "entity_colors": ["aggressive"],
         "coordinates": [351.5, 133.25]
     },
     {
         "name": "Stony Canyon",
         "color": "#8e723c",
-        "entities": ["Watchperson;Sabertooth Tiger"],
+        "entities": ["Combat;Sabertooth Tiger"],
         "entity_colors": ["aggressive"],
         "coordinates": [336, 133]
     },
@@ -2536,7 +2557,7 @@
     {
         "name": "Shrubby Canyon",
         "color": "#896836",
-        "entities": ["Watchperson;Passive;Gremlin"],
+        "entities": ["Combat;Passive;Gremlin"],
         "entity_colors": ["neutral"],
         "coordinates": [310.5, 122.75]
     },
