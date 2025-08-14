@@ -3,3 +3,4 @@ out/
 __pycache__
 .venv/
 map_data/images/
+map.psd
